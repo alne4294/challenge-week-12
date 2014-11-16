@@ -4,24 +4,23 @@
 
 ## Challenge 1
 
-[Insert Screenshot]
+![Insert Screenshot](rc1.png)
 
 ## Challenge 2
 
-[Explain what's interesting]
+All of the documents have a 'like' and 'replies' value of null.
 
 ## Challenge 3
 
-[Explain possible Insights]
+The only measure for popularity will be sub-reddits, but we can still identify general pattern by the author.
 
 ## Challenge 4
 
-[What it would tell you about the Reddit Community]
+If we could look at common words, it could give us some indications about the population that uses it.
 
 ## Challenge 5
 
-[Link to Code or pasted code]
-[Answer]
+
 
 ## Challenge 6
 
@@ -47,31 +46,32 @@
 
 ## Challenge 1
 
-[Screenshot your query and a result]
+![Screenshot your query and a result](yc1.png)
+Answer: 62
 
 ## Challenge 2
 
-[Query snippet]
-[Answer]
+![Answer](yc2.png)
+Answer: 110.083333
 
 ## Challenge 3
 
-[Query snippet]
+![Query snippet](yc3.png)
 [Answer]
 
 ## Challenge 4
 
-[Query snippet]
+![Query snippet](yc4.png)
 [Answer]
 
 ## Challenge 5
 
-[Query snippet]
+![Query snippet](yc5.png)
 [Answer]
 
 ## Challenge 6
 
-[Query snippet]
+![Query snippet](yc6.png)
 [Answer]
 
 ## Challenge 7 [BONUS]
