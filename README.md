@@ -94,11 +94,7 @@ Answer: 12572
 ![Query snippet](yc5.png)
 Answer: 7502
 
-## Challenge 6
-
-?????
-
-## Challenge 7 [BONUS]
+## Challenge 6 [BONUS]
 
 [Code]
 [Answer]
