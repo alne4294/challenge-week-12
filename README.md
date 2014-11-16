@@ -57,22 +57,21 @@ Answer: 110.083333
 ## Challenge 3
 
 ![Query snippet](yc3.png)
-[Answer]
+Answer: 1630
 
 ## Challenge 4
 
 ![Query snippet](yc4.png)
-[Answer]
+Answer: 12572
 
 ## Challenge 5
 
 ![Query snippet](yc5.png)
-[Answer]
+Answer: 7502
 
 ## Challenge 6
 
-![Query snippet](yc6.png)
-[Answer]
+?????
 
 ## Challenge 7 [BONUS]
 
