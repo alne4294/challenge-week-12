@@ -14,7 +14,7 @@ All of the documents have a 'like' and 'replies' value of null.
 
 ## Challenge 3
 
-The only measure for popularity will be sub-reddits, but we can still identify general patterns by the author.  Perhaps we can look at the most popular authors... The five most frequent authors were:
+We may want to look at the behavior of the authors that make the most comments and compare that to users that have less activity (excessively high activity may indicate spammers, moderators, or other alterier intentions)... The five most frequent authors were:
 "AutoModerator", "value" : 12520
 "pixis-4950", "value" : 9521
 "ModerationLog", "value" : 7820
@@ -32,7 +32,20 @@ For example, we notice that 217,677 documents contain the word "hate" while 1,56
 
 ## Challenge 5
 
-No commenter info in data set? 
+I couldn't find reddit.json or figure out how to link the subredit_counts with the mongo database... however, I was able to do the bonus challenge to create a query to sort they subreddits with the most number of comments.  Here are the top ten:
+
+{ "_id" : "AskReddit", "value" : 1381077 }
+{ "_id" : "funny", "value" : 414800 }
+{ "_id" : "AdviceAnimals", "value" : 359460 }
+{ "_id" : "pics", "value" : 325559 }
+{ "_id" : "leagueoflegends", "value" : 310783 }
+{ "_id" : "WTF", "value" : 301396 }
+{ "_id" : "gaming", "value" : 269637 }
+{ "_id" : "nfl", "value" : 209344 }
+{ "_id" : "worldnews", "value" : 191495 }
+{ "_id" : "videos", "value" : 168662 }
+
+![query](rc5.png)
 
 ## Challenge 6
 
@@ -52,7 +65,7 @@ Look at world events surrounding this date or evaluate the quantitative limitati
 
 ## Challenge 10
 
-On Aug. 28, 2013, the day of this data, there were breaking news about conflict in Syria and a cyberattack on the New York Times website.  These stories (especially the latter) could certainly change the "normal" behavior on Reddit.
+On Aug. 28, 2013, the day of this data, there were breaking news about conflict in Syria and a cyberattack on the New York Times website.  These stories (especially the latter) could certainly change the "normal" commenting behavior on Reddit.
 
 # Yelp and Weather 
 
