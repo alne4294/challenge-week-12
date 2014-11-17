@@ -47,6 +47,12 @@ I couldn't find reddit.json or figure out how to link the subredit_counts with t
 
 ![query](rc5.png)
 
+Additionally, by using the information above, I am able to determine the number of shared commenters for two popular reddits by combining them into a collection and counting the number of disctinct authors.
+
+For example, I inserted all documents for "AskReddit" and "funny" into a temporary collection (I didn't insert the full set because of the size), and then run a count() and and distinct("author").length.  The number of shared authors between these two reddits, is the count minus the number of distinct authors... Now I would hypothetically just need to write a script to compare all top 50 or so reddits to each other with a similar algorithm.
+
+![query](rc6.png)
+
 ## Challenge 6
 
 Since the data is only a subset of reality, we need to adjust our conclusions.  Perhaps it is actually more representative of the Reddit population, since only the comments that were approved by the populace were included.  However, we will not notice certain niches that may be equally important, even if not "liked".
